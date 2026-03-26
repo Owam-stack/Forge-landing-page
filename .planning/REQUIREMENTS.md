@@ -29,8 +29,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: Site deploys to GitHub Pages from the forge repository
-- [ ] **INFRA-02**: Vite build pipeline outputs static assets with correct base path for GitHub Pages
+- [x] **INFRA-01**: Site deploys to GitHub Pages from the forge repository
+- [x] **INFRA-02**: Vite build pipeline outputs static assets with correct base path for GitHub Pages
 - [ ] **INFRA-03**: Animations respect `prefers-reduced-motion` with instant-reveal fallback
 
 ## v2 Requirements
@@ -72,8 +72,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
-| INFRA-02 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
+| INFRA-02 | Phase 1 | Complete |
 | DESIGN-01 | Phase 1 | Pending |
 | DESIGN-02 | Phase 1 | Pending |
 | DESIGN-03 | Phase 1 | Pending |

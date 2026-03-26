@@ -29,7 +29,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Strip React/Tailwind to vanilla-ts, wire Vite base path, GitHub Actions deploy workflow
+- [x] 01-01-PLAN.md — Strip React/Tailwind to vanilla-ts, wire Vite base path, GitHub Actions deploy workflow
 - [ ] 01-02-PLAN.md — CSS design token system (dark palette, Syne + DM Sans), "F" nav logo styled
 
 ### Phase 2: Scroll Narrative
@@ -71,6 +71,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 1/2 | In Progress|  |
 | 2. Scroll Narrative | 0/2 | Not started | - |
 | 3. Animation + Waitlist | 0/2 | Not started | - |
