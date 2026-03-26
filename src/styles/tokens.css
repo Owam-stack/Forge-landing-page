@@ -1,0 +1,36 @@
+:root {
+  /* Fonts */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Dark monochrome palette */
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-surface-raised: #1a1a1a;
+  --color-border: #222222;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a0a0a0;
+  --color-text-muted: #606060;
+  --color-accent: #ffffff;
+
+  /* Type scale — Syne display headings */
+  --text-display: 4.5rem;
+  --text-title: 3rem;
+  --text-subtitle: 2.25rem;
+  --text-section: 1.5rem;
+
+  /* Type scale — DM Sans body */
+  --text-large: 1.125rem;
+  --text-base: 1rem;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  /* Layout */
+  --nav-height: 4rem;
+  --max-content: 72rem;
+}
