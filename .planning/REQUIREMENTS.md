@@ -72,26 +72,26 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| NARR-01 | TBD | Pending |
-| NARR-02 | TBD | Pending |
-| NARR-03 | TBD | Pending |
-| DESIGN-01 | TBD | Pending |
-| DESIGN-02 | TBD | Pending |
-| DESIGN-03 | TBD | Pending |
-| DESIGN-04 | TBD | Pending |
-| DESIGN-05 | TBD | Pending |
-| WAIT-01 | TBD | Pending |
-| WAIT-02 | TBD | Pending |
-| WAIT-03 | TBD | Pending |
-| INFRA-01 | TBD | Pending |
-| INFRA-02 | TBD | Pending |
-| INFRA-03 | TBD | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| DESIGN-01 | Phase 1 | Pending |
+| DESIGN-02 | Phase 1 | Pending |
+| DESIGN-03 | Phase 1 | Pending |
+| NARR-01 | Phase 2 | Pending |
+| NARR-03 | Phase 2 | Pending |
+| DESIGN-04 | Phase 2 | Pending |
+| DESIGN-05 | Phase 2 | Pending |
+| NARR-02 | Phase 3 | Pending |
+| INFRA-03 | Phase 3 | Pending |
+| WAIT-01 | Phase 3 | Pending |
+| WAIT-02 | Phase 3 | Pending |
+| WAIT-03 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 14 total
-- Mapped to phases: 0
-- Unmapped: 14 (awaiting roadmap)
+- Mapped to phases: 14
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-26*
-*Last updated: 2026-03-26 after initial definition*
+*Last updated: 2026-03-26 after roadmap creation — all 14 v1 requirements mapped*
