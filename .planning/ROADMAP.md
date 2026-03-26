@@ -26,11 +26,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. Running `npm run build && npm run deploy` pushes a live site to GitHub Pages with no 404s on assets
   2. The deployed page loads with Syne and DM Sans fonts, dark monochrome palette, and the "F" logo visible in the nav
   3. A local preview at `/forge/` base path shows the correct styles (validates GitHub Pages subpath config)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Vite scaffold, GitHub Pages deploy pipeline, base path config
-- [ ] 01-02: CSS design tokens, typography scale, dark palette, "F" logo
+- [ ] 01-01-PLAN.md — Strip React/Tailwind to vanilla-ts, wire Vite base path, GitHub Actions deploy workflow
+- [ ] 01-02-PLAN.md — CSS design token system (dark palette, Syne + DM Sans), "F" nav logo styled
 
 ### Phase 2: Scroll Narrative
 **Goal**: Every section of the scroll story exists with copy, photography, and correct viewport sizing — the full page readable before any scroll animation is wired
