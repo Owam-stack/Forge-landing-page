@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/forge/',
+  base: '/Forge-landing-page/',
   server: {
     port: 5180,
   },
