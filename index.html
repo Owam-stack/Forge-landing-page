@@ -3,19 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/forge/favicon.svg" />
+    <link rel="apple-touch-icon" href="/forge/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Forge — forge yourself into a better person. Daily discipline, intentional practice, relentless growth." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Forge — Forge yourself into the person you're meant to be." />
+    <meta property="og:description" content="A discipline practice for the restless, scattered, and undisciplined. No gamification. Just the work." />
+    <meta property="og:image" content="/forge/images/sagrada-familia-night.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Forge — A discipline practice" />
+    <meta name="twitter:description" content="Forge yourself into the person you're meant to be." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-    <title>Forge</title>
+    <title>Forge — Forge yourself into the person you're meant to be.</title>
   </head>
   <body>
     <nav id="nav">
-      <span class="nav-logo" aria-label="Forge">F</span>
+      <a href="#top" class="nav-logo" aria-label="Forge">F</a>
+      <a href="#waitlist" class="nav-cta">Join waitlist</a>
     </nav>
+
     <main id="app">
-      <!-- Phase 2 sections go here -->
+      <!-- HERO -->
+      <section id="top" class="section section--hero" data-section="hero">
+        <div class="section__bg" style="background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=2400&amp;q=80&amp;auto=format&amp;fit=crop')"></div>
+        <div class="section__overlay section__overlay--hero"></div>
+        <div class="section__content">
+          <p class="eyebrow" data-reveal>A discipline practice</p>
+          <h1 class="display" data-reveal data-reveal-delay="0.1">
+            Forge yourself<br />into the person<br />you're meant to be.
+          </h1>
+          <p class="lede" data-reveal data-reveal-delay="0.2">
+            A daily accountability engine for the restless, the scattered, and the undisciplined. No gamification. No streaks to flex. Just the work.
+          </p>
+          <div class="hero__actions" data-reveal data-reveal-delay="0.3">
+            <a href="#waitlist" class="btn btn--primary">Get early access</a>
+            <a href="#stuck" class="btn btn--ghost">Scroll the story</a>
+          </div>
+        </div>
+        <div class="scroll-hint" aria-hidden="true">
+          <span>SCROLL</span>
+          <span class="scroll-hint__line"></span>
+        </div>
+      </section>
+
+      <!-- STUCK -->
+      <section id="stuck" class="section section--question" data-section="stuck">
+        <div class="section__bg" style="background-image: url('https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?w=2400&amp;q=80&amp;auto=format&amp;fit=crop')"></div>
+        <div class="section__overlay"></div>
+        <div class="section__content section__content--question">
+          <p class="question__label" data-reveal>01 &nbsp;— &nbsp; The symptom</p>
+          <h2 class="question__word" data-reveal data-reveal-delay="0.1">Stuck?</h2>
+          <p class="question__body" data-reveal data-reveal-delay="0.2">
+            Same week, copy-pasted twelve times. You can feel the rut but can't find the edge of it. You've tried apps. You've tried journals. Nothing sticks because nothing asks anything of you.
+          </p>
+        </div>
+      </section>
+
+      <!-- RESTLESS -->
+      <section id="restless" class="section section--question" data-section="restless">
+        <div class="section__bg" style="background-image: url('https://images.unsplash.com/photo-1534447677768-be436bb09401?w=2400&amp;q=80&amp;auto=format&amp;fit=crop')"></div>
+        <div class="section__overlay"></div>
+        <div class="section__content section__content--question">
+          <p class="question__label" data-reveal>02 &nbsp;— &nbsp; The noise</p>
+          <h2 class="question__word" data-reveal data-reveal-delay="0.1">Restless?</h2>
+          <p class="question__body" data-reveal data-reveal-delay="0.2">
+            3AM scroll. A thousand tabs. A hundred half-started ideas. The energy is there — the aim isn't. You don't need more motivation. You need something to catch it before it escapes.
+          </p>
+        </div>
+      </section>
+
+      <!-- SCATTERED -->
+      <section id="scattered" class="section section--question" data-section="scattered">
+        <div class="section__bg" style="background-image: url('https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=2400&amp;q=80&amp;auto=format&amp;fit=crop')"></div>
+        <div class="section__overlay"></div>
+        <div class="section__content section__content--question">
+          <p class="question__label" data-reveal>03 &nbsp;— &nbsp; The drift</p>
+          <h2 class="question__word question__word--long" data-reveal data-reveal-delay="0.1">Scattered?</h2>
+          <p class="question__body" data-reveal data-reveal-delay="0.2">
+            Seven goals, none finished. Five habits, none tracked. You're not lazy — you're fragmented. The pieces are all there; what's missing is the hand that arranges them.
+          </p>
+        </div>
+      </section>
+
+      <!-- UNDISCIPLINED -->
+      <section id="undisciplined" class="section section--question" data-section="undisciplined">
+        <div class="section__bg" style="background-image: url('/forge/images/sagrada-familia-night.jpg')"></div>
+        <div class="section__overlay"></div>
+        <div class="section__content section__content--question">
+          <p class="question__label" data-reveal>04 &nbsp;— &nbsp; The reckoning</p>
+          <h2 class="question__word question__word--long" data-reveal data-reveal-delay="0.1">Undisciplined?</h2>
+          <p class="question__body" data-reveal data-reveal-delay="0.2">
+            You already know what to do. You've known for months. Knowing isn't the bottleneck — doing it on the days you don't feel like it is. That gap is everything.
+          </p>
+        </div>
+      </section>
+
+      <!-- FORGE REVEAL -->
+      <section id="forge" class="section section--reveal" data-section="forge">
+        <div class="section__bg" style="background-image: url('https://images.unsplash.com/photo-1519817650390-64a93db51149?w=2400&amp;q=80&amp;auto=format&amp;fit=crop')"></div>
+        <div class="section__overlay section__overlay--reveal"></div>
+        <div class="section__content section__content--reveal">
+          <p class="eyebrow eyebrow--accent" data-reveal>The answer isn't another app.</p>
+          <h2 class="reveal__word" data-reveal data-reveal-delay="0.1">Forge<span class="reveal__dot">.</span></h2>
+          <p class="reveal__lede" data-reveal data-reveal-delay="0.2">
+            A discipline engine that asks questions, tracks honestly, and nudges you when you drift. Built on three things that actually work.
+          </p>
+
+          <div class="pillars">
+            <div class="pillar" data-reveal data-reveal-delay="0.3">
+              <p class="pillar__number">01</p>
+              <h3 class="pillar__title">Track Progress</h3>
+              <p class="pillar__body">Daily logs that compound. Mood, energy, habits, intention — captured in seconds, surfaced as patterns.</p>
+            </div>
+            <div class="pillar" data-reveal data-reveal-delay="0.4">
+              <p class="pillar__number">02</p>
+              <h3 class="pillar__title">Set Intentions</h3>
+              <p class="pillar__body">Goals broken into milestones. Milestones broken into days. A clear next step, always visible.</p>
+            </div>
+            <div class="pillar" data-reveal data-reveal-delay="0.5">
+              <p class="pillar__number">03</p>
+              <h3 class="pillar__title">Daily Rituals</h3>
+              <p class="pillar__body">An AI coach that reads your data and asks the question you'd rather avoid. Direct, not cruel.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WAITLIST -->
+      <section id="waitlist" class="section section--waitlist" data-section="waitlist">
+        <div class="section__content section__content--waitlist">
+          <p class="eyebrow" data-reveal>Coming soon</p>
+          <h2 class="waitlist__headline" data-reveal data-reveal-delay="0.1">Be the first<br />to be held accountable.</h2>
+          <p class="waitlist__body" data-reveal data-reveal-delay="0.2">
+            Forge launches in private beta soon. Leave your details and we'll hand you the keys before anyone else.
+          </p>
+
+          <form class="waitlist-form" id="waitlist-form" data-reveal data-reveal-delay="0.3" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@domain.com" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+27 00 000 0000" />
+            </div>
+            <button type="submit" class="btn btn--primary btn--submit">
+              <span class="btn__label">Join the waitlist</span>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__logo">F</p>
+        <p class="footer__text">Forge — a discipline practice. Built in solitude, shipped with intent.</p>
+        <p class="footer__meta">© 2026 Forge. No tracking. No cloud. Just the work.</p>
+      </footer>
     </main>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
